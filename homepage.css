@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+.HERO {
+  background-image: url("unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#Visit {
+  font-family: "Orbitron", sans-serif;
+  color: white;
+  background-color: #457b9d;
+  padding: 10px 15px;
+  border-radius: 7px;
+}
+
+#Enjoy {
+  font-family: "Orbitron", sans-serif;
+  color: white;
+  background-color: #1d3557;
+  padding: 8px 12px;
+  border-radius: 7px;
+  margin: 5px;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.activities-section {
+  background-color: #f1faee;
+  padding: 20px;
+  text-align: center;
+}
+
+#activities-title {
+  font-family: "Orbitron", sans-serif;
+  font-size: 24px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-top: 0px;
+  background-color: #f1faee;
+}
+
+.activity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.activity img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.activity p {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  color: black;
+  margin-top: 8px;
+}
+
+.card {
+  border: 1px solid black;
+  padding: 20px;
+  display: flex;
+}
+
+.person {
+}

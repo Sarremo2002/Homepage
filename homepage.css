@@ -80,7 +80,12 @@ body {
   border: 1px solid black;
   padding: 20px;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .person {
+  margin: 7px;
+  border-radius: 100%;
+  object-fit: cover;
 }
